@@ -1,0 +1,206 @@
+@font-face {
+    font-family: "Glyphicons";
+    src: url(/assets/fonts/fontawesome-webfont.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Glyphicons";
+    src: url(/assets/fonts/glyphicons-halflings-regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(/assets/fonts/calibre/CalibreRegular.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(/assets/fonts/calibre/CalibreBold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    min-width: 1920px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    color:#000;
+    text-decoration: none;
+
+    /* overflow-x: hidden; */
+    position: relative;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+span,
+img {
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+
+    transition: all .3s ease;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-cover {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+/* Home-1 */
+
+.home-1 {
+    padding: 0 100px;
+    background-color: #17171A;
+}
+
+/* Header */
+
+.header_inner {
+    padding-top: 50px;
+}
+
+
+.header .img {
+    height: 36px;
+}
+
+
+
+
+.header .header-nav {
+    display: flex;
+    justify-content: space-around;
+    
+  
+}
+
+/* -240px */
+
+.header .header-nav .nav-item {
+    
+    font-size: 17px;
+    font-weight: 300;
+    color: #8A8A8A;
+
+    transition: all .3s ease;
+
+}
+
+.header .header-nav .nav-item:hover {
+    text-decoration: none;
+    color:#fff;
+}
+
+.header .contact-info a {
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: .2rem;
+    color: #BABABA;
+
+    
+}
+
+
+/* Hero */
+
+.hero {
+    padding: 50px 0;
+}
+
+.content {
+    color:#fff;
+    /* padding: 250px 0;
+    padding-left: 192px;
+    z-index: 1; */
+    position: absolute;
+    top: 250px;
+    left: 192px;
+    z-index: 1;
+}
+
+.hero .title-hero {
+    font-family: CalibreBold;
+    font-size: 200px;
+    font-weight: 500;
+}
+
+.hero .suptitle-hero {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero .picture {
+    padding-left: 212px;
+
+}
+
+.hero .picture .img {
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+.hero .btn {
+    margin-top: 50px;
+    padding: 20px 60px;
+}
+
+
+.hero .social-icon {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 452px;
+    right: 40px;
+}
+
+.hero .social-link i {
+    color: #BABABA;
+    font-size: 20px;
+
+    margin-bottom: 45px;
+
+    transition: all .3s ease;
+}
+
+.hero .social-link i:hover {
+    color:#fff;
+}

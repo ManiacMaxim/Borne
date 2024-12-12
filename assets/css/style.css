@@ -1,0 +1,398 @@
+@font-face {
+    font-family: "Glyphicons";
+    src: url(/assets/fonts/fontawesome-webfont.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Glyphicons";
+    src: url(/assets/fonts/glyphicons-halflings-regular.woff2) format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(/assets/fonts/calibre/CalibreRegular.otf) format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Calibre";
+    src: url(/assets/fonts/calibre/CalibreBold.otf) format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.5;
+    color:#000;
+    text-decoration: none;
+
+    /* overflow-x: hidden; */
+    position: relative;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+span,
+img {
+    display: inline-block;
+    text-decoration: none;
+    color:#000;
+
+    transition: all .3s ease;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.img-cover {
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    /* width: 1920px; */
+    
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* =================================================================== */
+/* Home-1 */
+/* ================================================================== */
+
+.home-1 {
+    background-color: #17171A;
+}
+
+/* ================================================================== */
+/* Header */
+/* ================================================================== */
+
+
+.header_inner {
+    padding-top: 50px;
+}
+
+.header .row {
+    justify-content: space-evenly;
+    align-items:center;
+}
+
+
+.header .img {
+    height: 36px;
+}
+
+.header .header-nav {
+    display: flex;
+    
+  
+}
+
+/* -240px */
+
+.header .header-nav .nav-item {
+
+    padding-right: 20px;
+    
+    font-size: 15px;
+    font-weight: 300;
+    color: #8A8A8A;
+
+    transition: all .3s ease;
+
+}
+
+.header .header-nav .nav-item:hover {
+    text-decoration: none;
+    color:#fff;
+}
+
+.header .contact-info a {
+    font-size: 15px;
+    line-height: 1.4;
+    letter-spacing: .2rem;
+    color: #BABABA;
+
+    
+}
+
+
+/* ================================================================== */
+/* Hero */
+/* ================================================================== */
+
+.hero_inner {
+    margin: 0 100px 0 200px;
+}
+
+.hero .content {
+    color:#fff;
+
+    position: absolute;
+    top: 250px;
+    left: 200px;
+    z-index: 1;
+}
+
+.hero .title-hero {
+    font-family: CalibreBold;
+    font-size: 200px;
+    font-weight: 500;
+}
+
+.hero .suptitle-hero {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.hero .picture {
+    /* width: 1140px; */
+    height: 726px;
+    padding-left: 100px;
+
+}
+
+.hero .picture .img {
+    width: 100%;
+    height: 100%;
+    opacity: .7;
+}
+
+.hero .btn {
+    margin-top: 50px;
+    padding: 20px 60px;
+}
+
+.hero .social-icon {
+    display: flex;
+    flex-direction: column;
+
+    position: absolute;
+    top: 352px;
+    right: 40px;
+}
+
+.hero .social-link i {
+    color: #BABABA;
+    font-size: 20px;
+
+    margin-bottom: 45px;
+
+    transition: all .3s ease;
+}
+
+.hero .social-link i:hover {
+    color:#fff;
+}
+
+
+/* ================================================================== */
+/* About */
+/* ================================================================== */
+
+.about_inner {
+    margin: 0 100px;
+}
+
+
+.about {
+    font-family: Calibre;
+    color:#fff;
+}
+
+.about .row {
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.about .subtitle {
+    position: relative;
+    font-size: 17px;
+    font-weight: normal;
+}
+
+.about .subtitle::after {
+    content: "";
+    position: absolute;
+    left: 80px;
+    top: 10px;
+    background-color: #fff;
+    width: 63px;
+    height: 1px;
+}
+
+.about .title-about {
+    margin-top: 48px;
+    font-size: 70px;
+    line-height: 0.9;
+    letter-spacing: 0;
+}
+
+.about .btn-link {
+    margin-top: 48px;
+
+    font-size: 17px;
+    color:#fff;
+}
+
+.about .btn-link i {
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.about .about-subtitle-txt {
+    font-size: 35px;
+    line-height: 1.2;
+}
+
+.about .about-txt {
+    margin-top: 32px;
+    color: #BABABA;
+    font-size: 17px;
+}
+
+.about .numbs {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .numbs .item {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.about .numbs .item:last-child {
+    margin-right: 0;
+}
+
+.about .numbs .item span {
+    color:#fff;
+    font-size: 70px;
+}
+
+.about .numbs .item p {
+    font-size: 15px;
+    color:#BABABA;
+
+    margin: 0;
+
+    display: inline-block;
+    padding-left: 15px;
+}
+
+
+/* ================================================================== */
+/* Servises */
+/* ================================================================== */
+
+
+.services_inner {
+    margin: 0 100px;
+}
+
+.services .container {
+    margin: 0 100px;
+}
+
+.services .row {
+    justify-content: space-between;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.services .column {
+    width: 332px;
+    height: 310px;
+    /* margin-right: 15px; */
+}
+
+
+
+
+.services-card {
+    color:#DEDEDE;
+    background-color:#252525;
+    padding: 50px;
+    
+}
+
+.services-card .icon {
+    padding-top: 10px;
+    margin-bottom: 20px;
+
+    width: 80px;
+    height: 80px;
+}
+
+.services-card .txt-content {
+    margin-bottom: 10px;
+
+    font-family: Calibre;
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+
+.services-card .txt-content span {
+    color:#DEDEDE;
+    padding-right: 20px;
+}
+
+.services-card .services-facts {
+    position: relative;
+    margin-top: 10px;
+
+    font-size: 14px;
+    color: #ADADAD;
+}
+
+.services-card .services-facts::before {
+    content:"";
+    position: absolute;
+    left: 0;
+    top: -15px;
+
+    background-color:#FFFFFF;
+    opacity: .1;
+
+    width: 232px;
+    height: 1px;
+}
